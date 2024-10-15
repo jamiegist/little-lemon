@@ -1,13 +1,15 @@
 function BookingForm() {
     return (
 <form>
-        e.preventDefault();
         <label>
           Number of Guests:
-          <input type="date" name="Date" />
-          <input type="time" name="Time" />
           <input type="number" name="Number of Guests" />
+          Occasion:
           <input type="text" name="Occasion" />
+          Date:
+          <input type="date" name="Date" />
+          Time:
+          <input type="time" name="Time" />
         </label>
         <button type="submit">Submit</button>
 </form>
