@@ -1,5 +1,6 @@
 import './App.css';
 import BookingForm from './BookingForm';
+import './Booking.css';
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+import "./Booking.css";
+
 function BookingForm() {
     return (
 <form>
@@ -11,7 +13,9 @@ function BookingForm() {
           Time:
           <input type="time" name="Time" />
         </label>
-        <button type="submit">Submit</button>
+        <div className="submitButton">
+          <button type="submit">Submit</button>
+        </div>
 </form>
     );
 }
