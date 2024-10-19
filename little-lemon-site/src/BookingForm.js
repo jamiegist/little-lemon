@@ -3,6 +3,7 @@ import "./Booking.css";
 function BookingForm() {
     return (
 <form>
+<h2>Book A Table</h2>
         <label>
           Number of Guests:
           <input type="number" name="Number of Guests" />
