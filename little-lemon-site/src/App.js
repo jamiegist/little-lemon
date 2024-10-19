@@ -1,11 +1,11 @@
 import './App.css';
 import BookingForm from './BookingForm';
-import './Booking.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Little Lemon</h1>
+      <Header />
       <BookingForm />
     </div>
   );
